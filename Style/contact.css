@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    background-color: #141021;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.INSTA{
+    max-width: 30px;
+    max-height: 30px;
+    padding: 0px 20px;
+}
+
+.FACE{
+    max-width: 30px;
+    max-height: 30px;
+    padding: 0px 20px;
+}
+
+a{
+    color: #a3956d;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+
+h1{
+    color: #a3956d;
+    font-size: 70px;
+    text-align: center;
+}
+
+h6{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+.SECTION{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.EMAIL{
+    background-color: #a3956d;
+    font-size: 50px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}

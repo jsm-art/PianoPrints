@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    background-color: #141021;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.INSTA{
+    max-width: 30px;
+    max-height: 30px;
+    padding: 0px 20px;
+}
+
+.FACE{
+    max-width: 30px;
+    max-height: 30px;
+    padding: 0px 20px;
+}
+
+a{
+    color: #a3956d;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+
+h1{
+    color: #a3956d;
+    text-align: center;
+    font-size: 70px;
+}
+
+.MAP{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.LIST{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    list-style-position: inside;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}

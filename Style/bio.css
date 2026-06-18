@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    background-color: #141021;
+    padding: 20px 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* HEADER */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    color: #a3956d;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+.INSTA,
+.FACE{
+    width: 30px;
+    height: 30px;
+    padding: 0 20px;
+}
+
+/* TITLE */
+
+h1{
+    color: #a3956d;
+    font-size: 60px;
+    text-align: center;
+}
+
+/* SECTIONS */
+
+.SECTION{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.BIO,
+.AUDIENCE{
+    color: white;
+    font-size: 32px;
+    width: 50%;
+}
+
+/* IMAGES */
+
+.PIANO,
+.COVER{
+    width: 45%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+
+footer{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 40px 0 10px;
+}

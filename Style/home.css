@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    background-color: #141021;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.INSTA{
+    max-width: 30px;
+    max-height: 30px;
+    padding: 0px 20px;
+}
+
+.FACE{
+    max-width: 30px;
+    max-height: 30px;
+    padding: 0px 20px;
+}
+
+a{
+    color: #a3956d;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+
+.MARK{
+    color: white;
+}
+
+.APPEAR{
+    background-color: #a3956d;
+    font-size: 15px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+h1{
+    color: #a3956d;
+    font-size: 70px;
+}
+
+h2{
+    color: white;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+h6{
+    color: #a3956d;
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-color: #394D40;
+}
+
+p{
+    color: white;
+    font-size: 30px;
+}
+
+.PIANOPRINTS{
+    text-align: left;
+    padding-top: 30px;
+}
+
+.WELCOME{
+    position: absolute;
+    padding-right: 1100px;
+    text-align: left;
+}
+
+.ABOVE{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.COMPOSER{
+    text-align: right;
+    padding-left: 100px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
